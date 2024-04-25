@@ -1159,10 +1159,10 @@ Input:
 			return nil
 		}
 		buf = buf[size:]
-		if !isInCharacterRange(r) {
-			d.err = d.syntaxError(fmt.Sprintf("illegal character code %U", r))
-			return nil
-		}
+		// if !isInCharacterRange(r) {
+		// 	d.err = d.syntaxError(fmt.Sprintf("illegal character code %U", r))
+		// 	return nil
+		// }
 	}
 
 	return data
