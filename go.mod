@@ -1,3 +1,3 @@
-module github.com/nbio/xml
+module github.com/ccclin/xml
 
 go 1.21
